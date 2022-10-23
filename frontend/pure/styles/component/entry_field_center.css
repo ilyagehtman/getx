@@ -1,0 +1,14 @@
+.entry_field_center {
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    background: transparent;
+    text-align: center;
+    border: 1px solid var(--main-color);
+}
+
+.entry_field_center:focus {
+    color: var(--sub-color);
+    border: 1px solid var(--sub-color);
+    background: var(--alt-sub-color);
+}

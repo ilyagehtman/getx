@@ -1,0 +1,13 @@
+.dropdown_list {
+    padding-left: 15px;
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    background: var(--bg-color);
+    border: 1px solid var(--main-color);
+}
+
+.dropdown_list {
+    border: 1px solid var(--hover-color);
+    color: var(--hover-color);
+}

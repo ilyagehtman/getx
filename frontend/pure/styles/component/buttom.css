@@ -1,0 +1,23 @@
+.button {
+    cursor: pointer;
+    appearance: none;
+    height: 40px;
+    justify-content: center;
+    background: var(--main-color);
+    border: none;
+    color: var(--bg-color);
+}
+
+.button:hover {
+    background-color: var(--hover-color);
+}
+
+.button:active {
+    padding-top: 4px;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    color: #ffffff;
+}

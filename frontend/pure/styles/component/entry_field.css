@@ -1,0 +1,38 @@
+.entry_field {
+    outline: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    height: 40px;
+    background: transparent;
+    border: 1px solid var(--main-color);
+}
+
+.entry_field:focus {
+    color: var(--sub-color);
+    border: 1px solid var(--sub-color);
+    background: var(--alt-sub-color);
+}
+
+.message {
+    padding-left: 0;
+    color: #ff8484;
+    border: 1px solid #ff8484;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.empty {
+    border: 1px solid #ff8383;
+    background-color: rgba(255, 227, 227, 0.50);
+    caret-color: #ff8383;
+}
+
+.empty:focus {
+    border: 1px solid #ff8383;
+    background-color: rgba(255, 227, 227, 0.50);
+    caret-color: #ff8383;
+}
+
+.empty::placeholder {
+    color: #ff8383;;
+}

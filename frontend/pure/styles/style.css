@@ -1,0 +1,55 @@
+@import url(themes/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+@import url(component/buttom.css);
+@import url(component/dropdown_list.css);
+@import url(component/entry_field.css);
+@import url(component/entry_field_center.css);
+
+@import url(impl/row.css);
+
+* {
+    font-family: 'Inconsolata', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+*::selection {
+    background-color: #eeeeee;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 800px;
+}
+
+hr {
+    color: var(--main-color);
+    width: 100%;
+}
+
+.logo_block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 39px;
+    margin-top: 20px;
+}
+
+.empty_block_rows {
+    border: 1px solid red;
+    height: 40px;
+    width: 200px;
+    padding-left: 15px;
+    margin-bottom: 6px;
+}
+
+.empty_block_rows input {
+    color: #ff7c7c;
+}
